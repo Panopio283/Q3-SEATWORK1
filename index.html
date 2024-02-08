@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favorite characters</title>
+    <style>
+
+    	body {
+    		background-image: url('https://i.pinimg.com/564x/23/4f/40/234f40f3e480d05f084879826b9d246b.jpg');
+    		background-size: cover;
+    		background-position: center;
+    		}
+
+		.grid-container {
+    		display: grid;
+    		grid-template-columns: repeat(2, 500px);
+    		grid-template-rows: repeat(3, 600px);
+    		gap: 4px;
+    		padding: 10px;
+    		margin: auto;
+    		max-width: 1200px;
+			}	
+        
+        .grid-item {
+   			background-color: #FFD1E6;
+    		border: thick solid #976E80;
+   			display: flex;
+    		flex-direction: column;
+    		justify-content: center;
+    		align-items: center;
+    		text-align: center;
+    		}
+
+        img {
+        	padding: 8px;
+        	border: thick dashed #A34C73;
+        }
+
+        h1 {
+        	position: relative;
+        	display: flex;
+    		justify-content: center;
+    		align-items: flex-start;
+    		position: absolute;
+    		top: 0;
+    		font-size: 50px;
+    		color: #BD6F7C;
+        }
+
+        h2 {
+        	bottom: 0;
+        	color: #7A3C58;
+        }
+
+        p {
+        	font-size: 50px;
+        	text-align: center;
+        	color: #992843;
+        }
+
+	</style>
+</head>
+<body>
+	<div class="grid-container">
+        <div class="grid-item">
+        	<img src="https://i.pinimg.com/736x/fa/d6/c9/fad6c95f973dbe11351f048fce04a5d9.jpg" height="370" width="330">
+        	<h1>Character</h1>
+        	<h2>A Turkist Angora kitten who loves to sass</h2>
+        </div>
+        <div class="grid-item">
+        	<h1>Information</h1>
+        	<p>𝓜𝓪𝓻𝓲𝓮 𝓯𝓻𝓸𝓶 𝓽𝓱𝓮 𝓐𝓻𝓲𝓼𝓽𝓸𝓬𝓪𝓽𝓼</p>
+            </div>
+
+        <div class="grid-item">
+        	<img src="https://i.pinimg.com/564x/75/ce/f1/75cef15ef7f29704bc0d6e9a6a7c1d02.jpg" height="370" width="330">
+        	<h2>A princess casted by the spell of a spinning wheel</h2>
+        </div>
+        <div class="grid-item">
+            <p>𝓐𝓾𝓻𝓸𝓻𝓪 𝓯𝓻𝓸𝓶 𝓢𝓵𝓮𝓮𝓹𝓲𝓷𝓰 𝓑𝓮𝓪𝓾𝓽𝔂</p>
+        </div>
+
+        <div class="grid-item">
+        	<img src="https://i.pinimg.com/564x/42/5d/6f/425d6fa0a99130f58000174fc93dc338.jpg" height="370" width="330">
+        	<h2>Princess Tiana's very kind and generous best friend</h2>
+        </div>
+        <div class="grid-item">
+        	<p>𝓛𝓸𝓽𝓽𝓲𝓮 𝓯𝓸𝓻𝓶 𝓟𝓻𝓲𝓷𝓬𝓮𝓼𝓼 𝓪𝓷𝓭 𝓽𝓱𝓮 𝓕𝓻𝓸𝓰</p>
+        </div>
+    </div>
+</body>
+</html>
